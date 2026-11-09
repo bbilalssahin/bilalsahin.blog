@@ -97,8 +97,12 @@ section:last-of-type{border-bottom:0}
 .post h3{font-size:20px;font-weight:600}
 .post p{margin:6px 0 0;color:var(--muted);font-size:15.5px;max-width:64ch}
 .soon{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--line);padding:3px 8px;border-radius:4px;white-space:nowrap}
+.post-link{color:var(--ink);text-decoration:none}
+.post-link:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.read{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);padding:3px 8px;border-radius:4px;white-space:nowrap;text-decoration:none}
+.read:hover{background:var(--accent-soft)}
 .note{font-size:15px;color:var(--muted);margin-top:18px}
-@media (max-width:700px){.post{grid-template-columns:1fr;gap:4px}.soon{justify-self:start;margin-top:8px}}
+@media (max-width:700px){.post{grid-template-columns:1fr;gap:4px}.soon,.read{justify-self:start;margin-top:8px}}
 
 /* talks + edu */
 .two{display:grid;grid-template-columns:1fr 1fr;gap:48px}
@@ -227,9 +231,10 @@ footer{padding-block:28px 40px;font-family:var(--mono);font-size:12px;color:var(
   <section id="makaleler">
     <div class="sec-head">
       <h2><span data-l="tr">Makaleler</span><span data-l="en">Articles</span></h2>
-      <span class="label"><span data-l="tr">Yakında yayınlanacak</span><span data-l="en">Coming soon</span></span>
+      <a class="label" href="https://medium.com/@bbilalssahin" target="_blank" rel="noopener">Medium ↗</a>
     </div>
     <div class="posts">
+      <div class="post"><span class="label">10.11.2026</span><div><h3><a class="post-link" href="/galxenin-vedasi">Galxe'nin Vedası: 36 Milyon Kullanıcı Neden Yetmedi?</a></h3><p><span data-l="tr">36 milyon kullanıcıya rağmen görev platformunun neden yetmediği: meme token çağı, airdrop çiftçiliği ve InfoFi.</span><span data-l="en">Why 36 million users weren't enough for Galxe's quest platform: the meme token era, airdrop farming and InfoFi. (In Turkish)</span></p></div><a class="read" href="/galxenin-vedasi"><span data-l="tr">Oku</span><span data-l="en">Read</span> →</a></div>
       <div class="post"><span class="label"><span data-l="tr">Regülasyon</span><span data-l="en">Regulation</span></span><div><h3><span data-l="tr">MiCA başvurusundan öğrendiklerim</span><span data-l="en">What I learned from a MiCA application</span></h3><p><span data-l="tr">Bir kripto varlık hizmet sağlayıcısının Avrupa lisans sürecinde politika ve prosedür tarafı.</span><span data-l="en">The policy and procedure side of a crypto asset service provider's EU licensing process.</span></p></div><span class="soon"><span data-l="tr">Yakında</span><span data-l="en">Soon</span></span></div>
       <div class="post"><span class="label">Tokenomics</span><div><h3><span data-l="tr">30 ön satıştan çıkan token ekonomisi dersleri</span><span data-l="en">Token economy lessons from 30 pre-sales</span></h3><p><span data-l="tr">Dağıtım tasarımı, vesting ve utility kararlarında neyin işe yaradığı.</span><span data-l="en">What worked in distribution design, vesting and utility decisions.</span></p></div><span class="soon"><span data-l="tr">Yakında</span><span data-l="en">Soon</span></span></div>
       <div class="post"><span class="label">Loyalty</span><div><h3><span data-l="tr">Kripto borsalarında sadakat programı tasarımı</span><span data-l="en">Designing loyalty programs for crypto exchanges</span></h3><p><span data-l="tr">Oyunlaştırma, uyum ve hazine ekipleri arasında denge kurmak.</span><span data-l="en">Balancing gamification with compliance and treasury.</span></p></div><span class="soon"><span data-l="tr">Yakında</span><span data-l="en">Soon</span></span></div>

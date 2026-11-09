@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Galxe'nin Vedası: 36 Milyon Kullanıcı Neden Yetmedi? · Bilal Şahin</title>
+<meta name="description" content="Galxe, Quest, ID ve Passport ürünlerini kapattı. 36 milyon kullanıcıya rağmen görev platformunun neden yetmediğine dair bir değerlendirme.">
+<meta name="author" content="Bilal Şahin">
+<link rel="canonical" href="https://bilalsahin.blog/galxenin-vedasi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Galxe'nin Vedası: 36 Milyon Kullanıcı Neden Yetmedi?">
+<meta property="og:description" content="36 milyon kullanıcıya rağmen görev platformunun neden yetmediğine dair bir değerlendirme.">
+<meta property="og:url" content="https://bilalsahin.blog/galxenin-vedasi">
+<meta property="og:image" content="https://bilalsahin.blog/galxe-tokenler.png">
+<meta property="article:published_time" content="2026-11-10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Same tokens as the home page; a single 680px reading column for long-form text. */
+:root{
+  --bg:#F5F7F9;
+  --surface:#FFFFFF;
+  --ink:#121A24;
+  --muted:#556270;
+  --line:#DCE2E8;
+  --accent:#0E5C7A;
+  --accent-soft:#E2EEF3;
+  --display:"Schibsted Grotesk",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1319;--surface:#151C24;--ink:#E7ECF1;--muted:#97A4B2;--line:#26313C;--accent:#6FB8D6;--accent-soft:#16303C;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0E1319;--surface:#151C24;--ink:#E7ECF1;--muted:#97A4B2;--line:#26313C;--accent:#6FB8D6;--accent-soft:#16303C;color-scheme:dark}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.7;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+h1,h2{font-family:var(--display);text-wrap:balance;line-height:1.15;margin:0}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{max-width:1080px;margin:0 auto;display:flex;align-items:center;gap:20px;padding-block:14px}
+.brand{font-family:var(--display);font-weight:700;font-size:18px;color:var(--ink);text-decoration:none;margin-right:auto}
+.back{font-family:var(--display);font-size:15px;color:var(--muted);text-decoration:none}
+.back:hover{color:var(--ink)}
+
+article{max-width:680px;margin:0 auto;padding-block:56px 40px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:18px}
+article h1{font-size:clamp(32px,5vw,48px);font-weight:700;letter-spacing:-.015em}
+.byline{font-family:var(--display);font-size:15px;color:var(--muted);margin:20px 0 40px;padding-bottom:28px;border-bottom:1px solid var(--line)}
+.byline a{color:var(--muted)}
+article h2{font-size:clamp(23px,3vw,28px);font-weight:600;margin:52px 0 14px}
+article p{margin:0 0 20px}
+article ul{margin:0 0 20px;padding-left:22px}
+article li{margin-bottom:10px}
+article li::marker{color:var(--accent)}
+figure{margin:32px 0}
+figure img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--line);background:#fff}
+figcaption{font-family:var(--display);font-size:14px;color:var(--muted);margin-top:10px}
+.timeline li strong{font-family:var(--display);font-weight:600}
+.sources{font-size:16px}
+.sources li{margin-bottom:6px;overflow-wrap:anywhere}
+.end{max-width:680px;margin:0 auto;padding-block:28px 48px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--display);font-size:15px}
+footer{max-width:1080px;margin:0 auto;padding-block:28px 40px;font-family:var(--mono);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:1px solid var(--line)}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="/">Bilal Şahin</a>
+    <a class="back" href="/#makaleler">← Tüm makaleler</a>
+  </div>
+</header>
+
+<main>
+<article>
+  <div class="meta"><span class="label">Web3 pazarlama</span><span class="label">10 Kasım 2026</span><span class="label">7 dk okuma</span></div>
+  <h1>Galxe'nin Vedası: 36 Milyon Kullanıcı Neden Yetmedi?</h1>
+  <p class="byline">Bilal Şahin · İlk olarak <a href="https://medium.com/@bbilalssahin/galxenin-vedas%C4%B1-36-milyon-kullan%C4%B1c%C4%B1-neden-yetmedi-8addaefc6d0d" target="_blank" rel="noopener">Medium'da</a> yayınlandı</p>
+
+  <h2>Bir dönemin sonu</h2>
+  <p>2020'de yola çıkan Galxe, beş yılı aşkın süre boyunca neredeyse her projenin “pazarlama ve büyüme” adresi oldu. 9 Kasım 2026'da ise görev (Quest) işini kapattığını duyurdu. Bunca süre sonra neden böyle bir sonla karşılaştık? Bence bunu tek bir sebebe bağlamak dar görüşlülük olur.</p>
+  <p>Ben de kripto para ve blokzincir dünyasına Galxe ile aynı yıl girdim. Bu süreçte ivmesiyle ortalığı kasıp kavuran akımlar gördük: NFT, DeFi, P2E, yapay zekâ, RWA, meme tokenler, L2 çözümleri ve daha fazlası. Ama aynı süreçte blokzincirin ve kripto paraların gerçekte çok az şeye gerçek fayda sağladığını da deneyimledik. İnşa edilen projelerin çok büyük bir kısmı başarısız oldu ve yerine çoğu dakikalar içinde rug çeken milyonlarca meme tokene büyük bir sermaye akışı gerçekleşti. Bu kripto paraların ise pazarlama ve büyümeye ihtiyacı yoktu.</p>
+  <p>Sadece inanmak istediğimiz için bunca projenin gerçekten bir ihtiyaca karşılık geldiğine inandık. Bazı projeler gelişime ve değişime yeterince adapte olamadı; bazıları ise baştan yalnızca bir ticaret serüveni olarak tasarlanmıştı. Bu yazıda, odaklandığı pazarı kaybeden ve değişime doğru yönelemeyen projelerden biri olarak gördüğüm Galxe’yi ele almak istiyorum.</p>
+
+  <h2>Galxe tam olarak ne duyurdu?</h2>
+  <p>Galxe, ekibini ve markasını kendi Layer 1 ağı Gravity çatısı altında birleştirdiğini; Galxe Quest, Galxe ID, Galxe Passport ve bağlı hizmetleri kapatacağını açıkladı. Gravity çalışmaya devam ediyor ve G tokeninde bir değişiklik yapılmıyor. Şirket, beş yılı aşkın sürede 36 milyonu aşkın kullanıcıya ve 7.700'den fazla partner projeye hizmet verdiğini vurguladı (<a href="https://www.techflowpost.com/en-US/newsletter/143699" target="_blank" rel="noopener">TechFlow</a>, <a href="https://panews.io/articles/01a1bf0d-2801-758b-8fb2-f4295e27879f" target="_blank" rel="noopener">PANews</a>).</p>
+  <ul class="timeline">
+    <li><strong>15 Aralık 2026:</strong> Ödül talep kanalı kapanıyor, Galxe sitesi salt okunur moda geçiyor</li>
+    <li><strong>5 Aralık 2026:</strong> Mevcut kampanyalara katılım için son gün</li>
+    <li><strong>9 Kasım 2026:</strong> Yeni kampanya, Galxe+ ve Galxe Score aboneliği ile Passport basımı durduruldu</li>
+    <li><strong>1 Kasım 2026:</strong> Gravity Alpha Mainnet emekliye ayrıldı (<a href="https://www.bitbase.com/news/galxe-shuts-down-quest-id-passport-gravity-l1" target="_blank" rel="noopener">Bitbase</a>)</li>
+  </ul>
+  <p>Resmi gerekçe tek cümle: kaynakları Gravity L1'e odaklamak. Ancak bir şirketin en tanınan ürününü kapatması, yalnızca stratejik bir tercih değil; o ürünün pazarının zaten küçüldüğünün de işaretidir. Aşağıdaki bölümler bu küçülmenin arka planına bakıyor.</p>
+
+  <h2>Anlatılar çağı ve büyük eleme</h2>
+  <p>Galxe yalnız değil: Son beş yılda yüz milyonlarca dolar değerlemeyle yatırım almış onlarca proje geldi ve gitti. CoinGecko verisine göre 2025 sonu itibarıyla GeckoTerminal’de listelenen tokenlerin %53,2'si artık işlem görmüyor (<a href="https://www.coingecko.com/research/publications/how-many-cryptocurrencies-failed" target="_blank" rel="noopener">CoinGecko Research</a>).</p>
+  <figure>
+    <img src="/galxe-tokenler.png" width="1400" height="784" loading="lazy" alt="Sütun grafik: Yıllara göre artık işlem görmeyen token sayısı. 2021'de 2.584, 2022'de 213.075, 2023'te 245.049, 2024'te 1.382.010, 2025'te 11.564.909. 2025, 2021–2025 toplamının yüzde 86,3'ü.">
+    <figcaption>Artık işlem görmeyen tokenler, son işlem yılına göre. Kaynak: CoinGecko Research, GeckoTerminal verisi.</figcaption>
+  </figure>
+  <p>Çöküşün asıl hızlandığı dönem, meme token fırlatma platformlarının yaygınlaştığı 2024 sonrası. Listelenen proje sayısı 2021'deki yaklaşık 430 binden 2025'te 20,2 milyona çıktı; yalnızca 2025'in son çeyreğinde, 10 Ekim’deki büyük tasfiye dalgasının ardından 7,7 milyon token öldü. Bu ortamda “proje” kelimesi, bir ürünü değil çoğu zaman yalnızca bir ticaret fırsatını ifade etmeye başladı.</p>
+
+  <h2>Meme çağında görev platformu</h2>
+  <p>Galxe’nin gerçekten etkili olabildiği pazar, piyasaya sürülen tokenlerin çok büyük kısmının meme olduğu bir döneme uygun değildi. Görev platformu, bir projenin aylar süren bir topluluk inşa etme ihtiyacı olduğunu varsayar. Meme tokenlerde ise ömür çoğu zaman dakikalarla ölçülür.</p>
+  <p>Rakamlar bu dönüşümü açıkça gösteriyor. CoinGecko kurucu ortağı Bobby Ong’un paylaştığı veriye göre yalnızca Ocak 2025'te 600 bin yeni token piyasaya çıktı; bu, bir önceki yılın aynı dönemine göre yaklaşık 12 kat artış demek (<a href="https://rss.boorghani.com/?p=282331" target="_blank" rel="noopener">haber</a>). Pump.fun’da Aralık 2025 boyunca her gün 20 binin üzerinde yeni meme token oluşturuldu (<a href="https://www.mexc.com/news/240644" target="_blank" rel="noopener">BeInCrypto</a>).</p>
+  <p>Dakikalar içinde ücretsiz token basılabilen bir piyasada, kampanya kurup haftalarca görev dağıtmak hem yavaş hem pahalı bir yöntem haline geldi. Galxe’nin müşterisi olan “ciddi” proje sayısı azalırken, kalan ilgi de başka kanallara kaydı.</p>
+
+  <h2>36 milyon kullanıcı yanılgısı</h2>
+  <p>Hatırlayanlar bilir: Eskiden bir projenin ilgimizi hak edip etmediğine, sosyal medya hesaplarına ve üçüncü taraf doğrulamasından geçmemiş kullanıcı ve trafik verilerine bakarak karar veriyorduk. Pek çoğumuz bu verilerin işlerin akışını gerçekten etkilediğini sanıyorduk. Girişimlerin görece düşük maliyetle yüksek geri dönüş aldığı platformların öncülerinden biri olan Galxe de bu yüzden bir dönem hepimizin kullandığı bir yer oldu.</p>
+  <p>Ancak kullanıcı ve yatırımcı ekosisteminin bunların içi boş metrikler olduğunu fark etmesi uzun sürmedi. Akademik veriler de bu sezgiyi destekliyor:</p>
+  <ul>
+    <li>Ethereum ve L2 ekosistemlerindeki dokuz büyük airdrop’u inceleyen bir çalışma, dağıtılan tokenlerin büyük kısmının (bazı durumlarda %95'e varan oranda) kısa süre içinde borsalarda satıldığını tespit etti. Araştırmacılara göre airdrop’lar amacına ulaşamıyor ve esasen “airdrop çiftçilerine” yarıyor (<a href="https://arxiv.org/html/2312.02752v2" target="_blank" rel="noopener">arXiv</a>).</li>
+    <li>Arbitrum airdrop’una yönelik bir analiz yaklaşık 150 bin Sybil adresi ve 4 binden fazla Sybil kümesi tespit etti (<a href="https://newsletter.human.tech/sybil-resistant-airdrops" target="_blank" rel="noopener">human.tech</a>).</li>
+  </ul>
+  <p>Galxe’nin kendi rakamlarına bakınca tablo daha net. Platform, Gravity’yi duyurduğu 2024'te 20 milyon, 2025 başında 30 milyon, kapanışta ise 36 milyon kullanıcıdan söz ediyordu (<a href="https://sg.finance.yahoo.com/news/web3-digital-identity-network-galxe-210000629.html" target="_blank" rel="noopener">CoinDesk/Yahoo</a>, <a href="https://manilatimes.net/2025/01/16/tmt-newswire/globenewswire/messari-highlights-galxes-leading-super-app/2040236" target="_blank" rel="noopener">Messari/Manila Times</a>). Kümülatif sayı her yıl büyüdü; fakat bu kullanıcıların ne kadarının aktif olduğu hiçbir zaman manşete taşınmadı.</p>
+  <p>Bence bunun sebebi, Galxe kullanıcılarının ulaştığı faydanın verimsizliğiydi. 36 milyon kişiye doğru filtre uygulamaz, ulaşılması gereken kullanıcılara ulaşamazsanız, elinizde geçici ödül avcılarından başka kimseye temas edemeyen bir kitleden fazlası kalmaz. Ortaya bir topluluk değil, bir trafik çıkar.</p>
+
+  <h2>Yol ayrımı: 36 milyon mu, doğru 250 bin mi?</h2>
+  <p>Bu sonuçta Galxe’nin zor ve riskli bir karar anında yanlış yolu seçmesinin payı olduğunu düşünüyorum. Başarılı bir dönemin ardından “36 milyon kullanıcı” pazarlamasını öne sürmeye devam etmek yerine, değer yaratabilecek segmentasyonlarla müşterilerini gerçekten mutlu edebilecek 250 bin kullanıcıyla çok daha fazlası yapılabilirdi.</p>
+  <p>Galxe bu yöne tamamen kayıtsız da değildi. Eylül 2024'te insan kullanıcıları botlardan ayırmak için Galxe Score’u, kimlik doğrulaması için de Passport’u sundu; Passport kullanıcı sayısı 1 milyona yaklaşmıştı (<a href="https://manilatimes.net/2025/01/16/tmt-newswire/globenewswire/messari-highlights-galxes-leading-super-app/2040236" target="_blank" rel="noopener">Messari/Manila Times</a>). Yani doğru filtrenin araçları masadaydı. Ancak vitrinde hâlâ büyük sayı duruyordu: 36 milyonun yanında 1 milyon, ana hikâye değil yan ürün olarak kaldı.</p>
+  <p>Tabii “36 milyon kullanıcı” yerine “size uygun 4.521 kullanıcı” demek hemen tercih edilebilecek bir karar değildir. Büyük sayı hem yatırımcı sunumunda hem de müşteri satışında daha iyi görünür. Fakat küçük ve doğrulanmış kitle, müşterinin harcadığı her doların karşılığını görebildiği tek modeldir. Kapanan da Galxe’nin en çok kullanıcıya sahip ürünleri; yani Quest, ID ve Passport.</p>
+
+  <h2>InfoFi: Bir adım ileri, ardından aynı tuzak</h2>
+  <p>Yeni nesil pazarlama kanalı olan InfoFi araçlarının durumu bir adım ileri taşıdığını düşünüyorum. Görev tamamlamak yerine içerik ve fikir üretimini ödüllendiren bu model, en azından “kim ne söylüyor” sorusunu ölçmeye çalışıyordu. Galxe de bu dalgaya Starboard ile katıldı: Messari raporuna göre platform ilk ayında 20 proje için 5 milyondan fazla topluluk etkileşimi kaydetti ve 150 bini aşkın gönderiyi indeksledi (<a href="https://www.finanzen.net/nachricht/aktien/galxe-starboard-leads-infofi-boom-with-5-million-engagements-14613834" target="_blank" rel="noopener">PR Newswire/finanzen.net</a>).</p>
+  <p>Yine de takip ettiğimiz herkesin reklam gönderisinden başka bir şey paylaşmaması, bağlantılarımızın etkileşim grupları için yapay zekâyla hazırlanmış içerikleri durmadan yeniden paylaşması, bu çiftçiliğe dahil olmayanlar için rahatsız edici bir hal aldı. Sonuçta gerçek bağlantılarını kaybeden ve yalnızca ödül kazanmak için hazırlanan içerikler, reklam referans değerlerini ve saygınlıklarını yeniden yitirdi.</p>
+  <p>Bu yorgunluğun faturası 15 Ocak 2026'da kesildi. X, gönderi karşılığında token, puan veya para dağıtan uygulamaların API erişimini kaldırdı; gerekçe olarak yapay zekâ üretimi spam ve ödül odaklı yanıt çiftçiliği gösterildi (<a href="https://www.theblock.co/post/385847/" target="_blank" rel="noopener">The Block</a>). Kaito, Yaps ürününü kapatacağını açıkladı ve KAITO kısa sürede %17–20 değer kaybetti (<a href="https://www.kucoin.com/news/flash/x-bans-infofi-apps-kaito-token-drops-17-20" target="_blank" rel="noopener">Bitcoin.com/KuCoin</a>). Cookie DAO da Snaps kampanya sistemini sonlandırdı (<a href="https://www.mexc.com/news/485398" target="_blank" rel="noopener">BeInCrypto/MEXC</a>).</p>
+  <p>X’in yasağına topluluğun önemli bir kısmının alkışla karşılık vermesi en çarpıcı veriydi. Eleştirmenlere göre model, özden çok hacmi ödüllendiriyordu. Yani InfoFi, Galxe’nin görev modelindeki sorunu çözmedi; ölçülen metriği takipçi sayısından etkileşim sayısına taşıdı ve aynı çiftçilik bu kez herkesin zaman akışına yayıldı.</p>
+
+  <h2>Sonuç</h2>
+  <p>Galxe’nin vedası tek bir sebebe bağlanamaz. Meme tokenlerin pazarı yutması, airdrop çiftçiliğinin metrikleri anlamsızlaştırması, InfoFi’nin dikkat ekonomisini kendi lehine çevirip sonra platform yasağıyla çökmesi ve şirketin kendi L1'ine yönelmesi aynı tabloya katkıda bulundu.</p>
+  <p>Yine de bence ortak payda şu: Galxe, ölçtüğü şeyi büyütmekte çok başarılıydı, ama ölçtüğü şey değer değildi. Kullanıcı sayısını vitrine koyan her ürün, bir gün o kullanıcıların kim olduğu sorusuyla yüzleşir.</p>
+  <p>Bundan sonraki büyüme araçlarının başarısı, kaç kişiye ulaştıklarıyla değil, doğru kişiye ulaştıklarını ne kadar kanıtlayabildikleriyle ölçülecek. Galxe’nin bıraktığı en değerli miras belki de bu ders olur.</p>
+
+  <h2>Kaynaklar</h2>
+  <ul class="sources">
+    <li><a href="https://www.techflowpost.com/en-US/newsletter/143699" target="_blank" rel="noopener">TechFlow: Galxe will shut down Quest and other businesses, merging into Gravity</a></li>
+    <li><a href="https://panews.io/articles/01a1bf0d-2801-758b-8fb2-f4295e27879f" target="_blank" rel="noopener">PANews: Galxe to Integrate Into Gravity</a></li>
+    <li><a href="https://www.bitbase.com/news/galxe-shuts-down-quest-id-passport-gravity-l1" target="_blank" rel="noopener">Bitbase: Galxe to Shut Down Quest, ID, and Passport</a></li>
+    <li><a href="https://www.coingecko.com/research/publications/how-many-cryptocurrencies-failed" target="_blank" rel="noopener">CoinGecko Research: How Many Cryptocurrencies Have Failed</a></li>
+    <li><a href="https://arxiv.org/html/2312.02752v2" target="_blank" rel="noopener">arXiv: Airdrops ve airdrop çiftçileri üzerine ampirik çalışma</a></li>
+    <li><a href="https://newsletter.human.tech/sybil-resistant-airdrops" target="_blank" rel="noopener">human.tech: Sybil-resistant airdrops</a></li>
+    <li><a href="https://manilatimes.net/2025/01/16/tmt-newswire/globenewswire/messari-highlights-galxes-leading-super-app/2040236" target="_blank" rel="noopener">Messari / Manila Times: Galxe süper uygulama raporu (Ocak 2025)</a></li>
+    <li><a href="https://sg.finance.yahoo.com/news/web3-digital-identity-network-galxe-210000629.html" target="_blank" rel="noopener">CoinDesk / Yahoo: Galxe’nin Gravity duyurusu</a></li>
+    <li><a href="https://www.finanzen.net/nachricht/aktien/galxe-starboard-leads-infofi-boom-with-5-million-engagements-14613834" target="_blank" rel="noopener">PR Newswire / finanzen.net: Galxe Starboard ve InfoFi</a></li>
+    <li><a href="https://www.theblock.co/post/385847/" target="_blank" rel="noopener">The Block: X’in InfoFi uygulamalarına yönelik kısıtlaması</a></li>
+    <li><a href="https://www.kucoin.com/news/flash/x-bans-infofi-apps-kaito-token-drops-17-20" target="_blank" rel="noopener">Bitcoin.com / KuCoin: X Bans InfoFi Apps, Kaito Token Drops</a></li>
+    <li><a href="https://www.mexc.com/news/485398" target="_blank" rel="noopener">BeInCrypto / MEXC: X Just Killed Kaito and InfoFi Crypto</a></li>
+    <li><a href="https://www.mexc.com/news/240644" target="_blank" rel="noopener">BeInCrypto / MEXC: Pump.fun’da günlük yeni token sayısı</a></li>
+    <li><a href="https://rss.boorghani.com/?p=282331" target="_blank" rel="noopener">Bobby Ong’un Ocak 2025 token verisi (haber)</a></li>
+  </ul>
+</article>
+<div class="end">
+  <a href="/#makaleler">← Tüm makaleler</a>
+  <a href="/#iletisim">İletişime geç</a>
+</div>
+</main>
+<footer><span>© 2026 Bilal Şahin</span><span>İstanbul</span></footer>
+</body>
+</html>
